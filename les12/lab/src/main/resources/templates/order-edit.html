@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Redaktirovanie zakaza</title>
+</head>
+<body>
+<h1>Redaktirovanie zakaza #<span th:text="${order.orderId}"></span></h1>
+<form th:action="@{/web/orders/edit/{id}(id=${order.orderId})}" method="post">
+    <label>Klient:</label>
+    <select name="customerId">
+        <option th:each="c : ${customers}" th:value="${c.customerId}" th:text="${c.name}"
+                th:selected="${c.customerId == order.customer.customerId}"></option>
+    </select>
+    <br/><br/>
+    <label>Adres dostavki:</label>
+    <input type="text" name="shippingAddress" th:value="${order.shippingAddress}" size="40"/>
+    <br/><br/>
+    <label>Status:</label>
+    <select name="status">
+        <option value="NEW" th:selected="${order.status == 'NEW'}">NEW</option>
+        <option value="COMPLETED" th:selected="${order.status == 'COMPLETED'}">COMPLETED</option>
+        <option value="CANCELLED" th:selected="${order.status == 'CANCELLED'}">CANCELLED</option>
+    </select>
+    <br/><br/>
+    <p><b>Pozicii zakaza:</b></p>
+    <table border="1">
+        <tr><th>Tovar</th><th>Cena</th><th>Kol-vo</th></tr>
+        <tr th:each="p : ${products}">
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+            <td>
+                <input type="hidden" name="productIds" th:value="${p.productId}"/>
+                <input type="number" name="quantities" min="0" value="0" style="width:80px"/>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <input type="submit" value="Sohranit izmeneniya"/>
+</form>
+<br/>
+<a th:href="@{/web/orders}">Nazad k spisku</a>
+<br/><br/>
+<a th:href="@{/web/orders/delete/{id}(id=${order.orderId})}" style="color:red;">Udalit zakaz</a>
+</body>
+</html>

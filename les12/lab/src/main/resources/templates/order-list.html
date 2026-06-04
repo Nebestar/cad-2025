@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Zakazy</title>
+    <style>
+        table { border-collapse: collapse; width: 80%; }
+        th, td { border: 1px solid #999; padding: 10px; text-align: left; }
+        a { margin-right: 15px; }
+    </style>
+</head>
+<body>
+<h1>Spisok zakazov</h1>
+<table>
+    <tr><th>ID</th><th>Data</th><th>Status</th><th>Summa</th><th>Dejstviya</th></tr>
+    <tr th:each="o : ${orders}">
+        <td th:text="${o.orderId}"></td>
+        <td th:text="${o.orderDate}"></td>
+        <td th:text="${o.status}"></td>
+        <td th:text="${o.totalPrice}"></td>
+        <td>
+            <a th:href="@{/web/orders/edit/{id}(id=${o.orderId})}">Redaktirovat</a>
+            <a th:href="@{/web/orders/delete/{id}(id=${o.orderId})}">Udalit</a>
+        </td>
+    </tr>
+</table>
+<br/>
+<a th:href="@{/web/orders/new}" style="font-size:18px;">Sozdat novyj zakaz</a>
+</body>
+</html>
