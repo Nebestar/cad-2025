@@ -5,51 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16b8f348-419c-42e8-a58f-2d541b50a0aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/app/product-table.app.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/CSVParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/CategoryRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/CategoryRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/ConcreteCategoryProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/ConcreteProductProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/ConsoleTableRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/DataBaseRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/HTMLTableRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/LoggingAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/Parser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/ProductProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/Reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/ru/bsuedu/cad/lab/ResourceFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/category.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/products.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les04/lab/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les04/lab/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../les04/lab/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../les04/lab/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/entity/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/entity/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/repository/CategoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/repository/OrderDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/repository/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/service/OrderItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../les08/lab/lab5/src/main/java/ru/bsuedu/cad/lab/service/OrderService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -81,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build lab.executor": "Run",
-    "Gradle.lab [:app:ru.bsuedu.cad.lab.App.main()].executor": "Run",
-    "Gradle.lab.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/cad-2025/les06/lab"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build lab.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab [:app:ru.bsuedu.cad.lab.App.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.lab.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/cad-2025/les06/lab&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\cad-2025\les06\lab\app\src\main\resources" />

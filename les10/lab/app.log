@@ -1,0 +1,12 @@
+02:32:42.895 INFO  ru.bsuedu.cad.lab.app.Main - Magazin zootovarov zapuschen
+02:32:43.218 INFO  ru.bsuedu.cad.lab.app.Main - Zagruzheno categoriy: 3
+02:32:43.225 INFO  ru.bsuedu.cad.lab.app.Main - Zagruzheno pokupateley: 2
+02:32:43.245 INFO  ru.bsuedu.cad.lab.app.Main - Zagruzheno tovarov: 3
+02:32:43.258 INFO  ru.bsuedu.cad.lab.app.Main - Vybran pokupatel: Иван Петров
+02:32:43.258 INFO  ru.bsuedu.cad.lab.app.Main - Sozdanie zakaza...
+02:32:43.261 INFO  r.b.cad.lab.service.OrderService - Dobavlen tovar: 'Корм для собак Чаппи' (2 sht.) po cene 1500.00 RUB
+02:32:43.262 INFO  r.b.cad.lab.service.OrderService - Dobavlen tovar: 'Мячик-пищалка' (1 sht.) po cene 300.00 RUB
+02:32:43.267 INFO  ru.bsuedu.cad.lab.app.Main - Zakaz #1 sozdan. Summa: 3300.00 RUB
+02:32:43.269 INFO  ru.bsuedu.cad.lab.app.Main - Vsego zakazov v BD: 1
+02:32:43.269 INFO  ru.bsuedu.cad.lab.app.Main - Zakaz #1 ot 04.06.2026 02:32, status: 'NEW', summa: 3300.00 RUB
+02:32:43.269 INFO  ru.bsuedu.cad.lab.app.Main - Prilozhenie zaversheno.
